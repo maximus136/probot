@@ -44,7 +44,7 @@ export interface OctokitResult {
   }
 }
 
-export interface OctokitError {
+export interface OctokitError extends Error {
   code: number
   status: string
 }
